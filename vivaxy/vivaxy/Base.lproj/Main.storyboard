@@ -9,7 +9,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="test_swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="vivaxy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,26 +18,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pdL-r9-8Ho">
-                                <rect key="frame" x="300" y="300" width="0.0" height="0.0"/>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scalesPageToFit="YES" suppressesIncrementalRendering="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TiX-zg-dyp">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="pdL-r9-8Ho" secondAttribute="trailing" constant="-20" id="eqM-lp-j9Z"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="pdL-r9-8Ho" secondAttribute="bottom" id="ewZ-ME-SrT"/>
-                            <constraint firstItem="pdL-r9-8Ho" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="fz1-XW-NpU"/>
-                            <constraint firstItem="pdL-r9-8Ho" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="qyg-90-lOH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TiX-zg-dyp" secondAttribute="trailingMargin" id="4QY-5K-moS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TiX-zg-dyp" secondAttribute="bottom" id="CiP-TM-fQA"/>
+                            <constraint firstItem="TiX-zg-dyp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="HsG-ZS-Gi9"/>
+                            <constraint firstItem="TiX-zg-dyp" firstAttribute="leadingMargin" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="l8t-sB-l0H"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="pdL-r9-8Ho" id="9PE-zT-i3n"/>
+                        <outlet property="webView" destination="TiX-zg-dyp" id="zzV-nw-bzc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="157" y="221"/>
         </scene>
     </scenes>
 </document>

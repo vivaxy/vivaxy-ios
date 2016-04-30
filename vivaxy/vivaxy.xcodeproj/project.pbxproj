@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01F448491CD3941A00A8417D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F448481CD3941A00A8417D /* AppDelegate.swift */; };
-		01F4484B1CD3941A00A8417D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4484A1CD3941A00A8417D /* ViewController.swift */; };
-		01F4484E1CD3941A00A8417D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F4484C1CD3941A00A8417D /* Main.storyboard */; };
-		01F448501CD3941A00A8417D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F4484F1CD3941A00A8417D /* Assets.xcassets */; };
-		01F448531CD3941A00A8417D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F448511CD3941A00A8417D /* LaunchScreen.storyboard */; };
+		01F54C781CD4582500BB238E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F54C771CD4582500BB238E /* AppDelegate.swift */; };
+		01F54C7A1CD4582500BB238E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F54C791CD4582500BB238E /* ViewController.swift */; };
+		01F54C7D1CD4582500BB238E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F54C7B1CD4582500BB238E /* Main.storyboard */; };
+		01F54C7F1CD4582500BB238E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F54C7E1CD4582500BB238E /* Assets.xcassets */; };
+		01F54C821CD4582500BB238E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F54C801CD4582500BB238E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01F448451CD3941A00A8417D /* test-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		01F448481CD3941A00A8417D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01F4484A1CD3941A00A8417D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		01F4484D1CD3941A00A8417D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		01F4484F1CD3941A00A8417D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		01F448521CD3941A00A8417D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		01F448541CD3941A00A8417D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F54C741CD4582500BB238E /* vivaxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vivaxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F54C771CD4582500BB238E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01F54C791CD4582500BB238E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01F54C7C1CD4582500BB238E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01F54C7E1CD4582500BB238E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01F54C811CD4582500BB238E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01F54C831CD4582500BB238E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01F448421CD3941900A8417D /* Frameworks */ = {
+		01F54C711CD4582500BB238E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01F4483C1CD3941900A8417D = {
+		01F54C6B1CD4582500BB238E = {
 			isa = PBXGroup;
 			children = (
-				01F448471CD3941A00A8417D /* test-swift */,
-				01F448461CD3941A00A8417D /* Products */,
+				01F54C761CD4582500BB238E /* vivaxy */,
+				01F54C751CD4582500BB238E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		01F448461CD3941A00A8417D /* Products */ = {
+		01F54C751CD4582500BB238E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01F448451CD3941A00A8417D /* test-swift.app */,
+				01F54C741CD4582500BB238E /* vivaxy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		01F448471CD3941A00A8417D /* test-swift */ = {
+		01F54C761CD4582500BB238E /* vivaxy */ = {
 			isa = PBXGroup;
 			children = (
-				01F448481CD3941A00A8417D /* AppDelegate.swift */,
-				01F4484A1CD3941A00A8417D /* ViewController.swift */,
-				01F4484C1CD3941A00A8417D /* Main.storyboard */,
-				01F4484F1CD3941A00A8417D /* Assets.xcassets */,
-				01F448511CD3941A00A8417D /* LaunchScreen.storyboard */,
-				01F448541CD3941A00A8417D /* Info.plist */,
+				01F54C771CD4582500BB238E /* AppDelegate.swift */,
+				01F54C791CD4582500BB238E /* ViewController.swift */,
+				01F54C7B1CD4582500BB238E /* Main.storyboard */,
+				01F54C7E1CD4582500BB238E /* Assets.xcassets */,
+				01F54C801CD4582500BB238E /* LaunchScreen.storyboard */,
+				01F54C831CD4582500BB238E /* Info.plist */,
 			);
-			path = "test-swift";
+			path = vivaxy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01F448441CD3941900A8417D /* test-swift */ = {
+		01F54C731CD4582500BB238E /* vivaxy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01F448571CD3941A00A8417D /* Build configuration list for PBXNativeTarget "test-swift" */;
+			buildConfigurationList = 01F54C861CD4582500BB238E /* Build configuration list for PBXNativeTarget "vivaxy" */;
 			buildPhases = (
-				01F448411CD3941900A8417D /* Sources */,
-				01F448421CD3941900A8417D /* Frameworks */,
-				01F448431CD3941900A8417D /* Resources */,
+				01F54C701CD4582500BB238E /* Sources */,
+				01F54C711CD4582500BB238E /* Frameworks */,
+				01F54C721CD4582500BB238E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "test-swift";
-			productName = "test-swift";
-			productReference = 01F448451CD3941A00A8417D /* test-swift.app */;
+			name = vivaxy;
+			productName = vivaxy;
+			productReference = 01F54C741CD4582500BB238E /* vivaxy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		01F4483D1CD3941900A8417D /* Project object */ = {
+		01F54C6C1CD4582500BB238E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = vivaxy;
 				TargetAttributes = {
-					01F448441CD3941900A8417D = {
+					01F54C731CD4582500BB238E = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = GW33BQZMPR;
 					};
 				};
 			};
-			buildConfigurationList = 01F448401CD3941900A8417D /* Build configuration list for PBXProject "test-swift" */;
+			buildConfigurationList = 01F54C6F1CD4582500BB238E /* Build configuration list for PBXProject "vivaxy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 01F4483C1CD3941900A8417D;
-			productRefGroup = 01F448461CD3941A00A8417D /* Products */;
+			mainGroup = 01F54C6B1CD4582500BB238E;
+			productRefGroup = 01F54C751CD4582500BB238E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01F448441CD3941900A8417D /* test-swift */,
+				01F54C731CD4582500BB238E /* vivaxy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		01F448431CD3941900A8417D /* Resources */ = {
+		01F54C721CD4582500BB238E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F448531CD3941A00A8417D /* LaunchScreen.storyboard in Resources */,
-				01F448501CD3941A00A8417D /* Assets.xcassets in Resources */,
-				01F4484E1CD3941A00A8417D /* Main.storyboard in Resources */,
+				01F54C821CD4582500BB238E /* LaunchScreen.storyboard in Resources */,
+				01F54C7F1CD4582500BB238E /* Assets.xcassets in Resources */,
+				01F54C7D1CD4582500BB238E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01F448411CD3941900A8417D /* Sources */ = {
+		01F54C701CD4582500BB238E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F4484B1CD3941A00A8417D /* ViewController.swift in Sources */,
-				01F448491CD3941A00A8417D /* AppDelegate.swift in Sources */,
+				01F54C7A1CD4582500BB238E /* ViewController.swift in Sources */,
+				01F54C781CD4582500BB238E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		01F4484C1CD3941A00A8417D /* Main.storyboard */ = {
+		01F54C7B1CD4582500BB238E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				01F4484D1CD3941A00A8417D /* Base */,
+				01F54C7C1CD4582500BB238E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		01F448511CD3941A00A8417D /* LaunchScreen.storyboard */ = {
+		01F54C801CD4582500BB238E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				01F448521CD3941A00A8417D /* Base */,
+				01F54C811CD4582500BB238E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		01F448551CD3941A00A8417D /* Debug */ = {
+		01F54C841CD4582500BB238E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +209,7 @@
 			};
 			name = Debug;
 		};
-		01F448561CD3941A00A8417D /* Release */ = {
+		01F54C851CD4582500BB238E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,24 +248,24 @@
 			};
 			name = Release;
 		};
-		01F448581CD3941A00A8417D /* Debug */ = {
+		01F54C871CD4582500BB238E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "test-swift/Info.plist";
+				INFOPLIST_FILE = vivaxy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vivaxy.test-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivaxy.vivaxy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		01F448591CD3941A00A8417D /* Release */ = {
+		01F54C881CD4582500BB238E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "test-swift/Info.plist";
+				INFOPLIST_FILE = vivaxy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vivaxy.test-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivaxy.vivaxy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -273,25 +273,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01F448401CD3941900A8417D /* Build configuration list for PBXProject "test-swift" */ = {
+		01F54C6F1CD4582500BB238E /* Build configuration list for PBXProject "vivaxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01F448551CD3941A00A8417D /* Debug */,
-				01F448561CD3941A00A8417D /* Release */,
+				01F54C841CD4582500BB238E /* Debug */,
+				01F54C851CD4582500BB238E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01F448571CD3941A00A8417D /* Build configuration list for PBXNativeTarget "test-swift" */ = {
+		01F54C861CD4582500BB238E /* Build configuration list for PBXNativeTarget "vivaxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01F448581CD3941A00A8417D /* Debug */,
-				01F448591CD3941A00A8417D /* Release */,
+				01F54C871CD4582500BB238E /* Debug */,
+				01F54C881CD4582500BB238E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 01F4483D1CD3941900A8417D /* Project object */;
+	rootObject = 01F54C6C1CD4582500BB238E /* Project object */;
 }

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  test-swift
+//  vivaxy
 //
-//  Created by vivaxy on 16-04-29.
+//  Created by vivaxy on 16-04-30.
 //  Copyright © 2016年 vivaxy. All rights reserved.
 //
 

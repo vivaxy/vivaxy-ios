@@ -3,6 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -27,7 +29,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="TiX-zg-dyp" secondAttribute="trailing" id="4QY-5K-moS"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TiX-zg-dyp" secondAttribute="bottom" id="CiP-TM-fQA"/>
-                            <constraint firstItem="TiX-zg-dyp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="HsG-ZS-Gi9"/>
+                            <constraint firstItem="TiX-zg-dyp" firstAttribute="firstBaseline" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="HsG-ZS-Gi9"/>
                             <constraint firstItem="TiX-zg-dyp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="l8t-sB-l0H"/>
                         </constraints>
                     </view>

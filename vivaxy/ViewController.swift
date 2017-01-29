@@ -6,24 +6,39 @@
 //  Copyright © 2016年 vivaxy. All rights reserved.
 //
 
-import UIKit;
+import UIKit
+import WebKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, WKUIDelegate {
 
-    @IBOutlet weak var webView: UIWebView!
+    var webView: WKWebView!
+    
+    override func loadView() {
+    
+        let webConfiguration = WKWebViewConfiguration()
+        webConfiguration.applicationNameForUserAgent = "vivaxy"
+        webView = WKWebView(frame: .zero, configuration: webConfiguration)
+        webView.uiDelegate = self
+        view = webView
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad();
         // Do any additional setup after loading the view, typically from a nib.
         let url = URL (string: "https://vivaxy.github.io");
         let requestObj = URLRequest(url: url!);
-        webView.loadRequest(requestObj);
+        webView.load(requestObj);
+    }
+    
+    override func didReceiveMemoryWarning(){
+        super.didReceiveMemoryWarning()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning();
-        // Dispose of any resources that can be recreated.
+    func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
+        print(navigationAction);
+        if navigationAction.targetFrame == nil {
+            webView.load(navigationAction.request)
+        }
+        return nil
     }
-
-
 }
-

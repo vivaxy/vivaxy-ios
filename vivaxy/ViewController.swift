@@ -12,6 +12,7 @@ import WebKit
 class ViewController: UIViewController, WKUIDelegate {
 
     var webView: WKWebView!
+    var progressView: UIProgressView!
     
     override func loadView() {
     
@@ -19,7 +20,10 @@ class ViewController: UIViewController, WKUIDelegate {
         webConfiguration.applicationNameForUserAgent = "vivaxy"
         webView = WKWebView(frame: .zero, configuration: webConfiguration)
         webView.uiDelegate = self
+        webView.allowsLinkPreview = true;
+        webView.allowsBackForwardNavigationGestures = true
         view = webView
+
     }
 
     override func viewDidLoad() {
@@ -28,6 +32,11 @@ class ViewController: UIViewController, WKUIDelegate {
         let url = URL (string: "https://vivaxy.github.io");
         let requestObj = URLRequest(url: url!);
         webView.load(requestObj);
+        
+        webView.addObserver(self, forKeyPath: #keyPath(WKWebView.estimatedProgress), options: .new, context: nil)
+        
+        progressView = UIProgressView(progressViewStyle: .default)
+        progressView.sizeToFit()
     }
     
     override func didReceiveMemoryWarning(){
@@ -35,10 +44,18 @@ class ViewController: UIViewController, WKUIDelegate {
     }
 
     func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
-        print(navigationAction);
         if navigationAction.targetFrame == nil {
             webView.load(navigationAction.request)
         }
         return nil
     }
+    
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        if keyPath == "estimatedProgress" {
+            print(webView.estimatedProgress)
+            progressView.progress = Float(webView.estimatedProgress)
+        }
+    }
+    
+    deinit { webView.removeObserver(self, forKeyPath: "estimatedProgress") }
 }
